@@ -1,0 +1,29 @@
+
+/* container para separar a página em 04 partes
+O seletor * no CSS tem uma função específica:
+Ele é chamado de seletor universal e serve para selecionar todos os elementos da página.
+*/
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100vw;
+      height: 100vh;
+    }
+    .box {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #000;
+      font-size: 24px;
+      background-color: white;
+    }
