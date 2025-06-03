@@ -27,3 +27,45 @@ Ele é chamado de seletor universal e serve para selecionar todos os elementos d
       font-size: 24px;
       background-color: white;
     }
+
+    .yellow-background {
+      background-color: #f9a825;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .yellow-content {
+      background-color: #f9a825;
+     padding: 40px;
+     max-width: 90%;
+     text-align: center;
+     border-radius: 12px;
+    }
+
+    .yellow-content h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .yellow-content p {
+     font-size: 16px;
+     margin-bottom: 20px;
+     color: white;
+    }
+
+    .pizza-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .pizza-gallery img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+
