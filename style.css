@@ -69,3 +69,54 @@ Ele é chamado de seletor universal e serve para selecionar todos os elementos d
       border: 3px solid white;
     }
 
+    .pizza-card {
+      background-color: #f9a825;
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+     width: 180px;
+      padding: 10px;
+     text-align: center;
+    color: #000;
+    }
+
+    .pizza-card img {
+      width: 120px;
+     height: 120px;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 3px solid white;
+      margin-bottom: 10px;
+    }
+
+    .pizza-card h3 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .pizza-card p {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .pizza-card span {
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    .pizza-card button {
+      padding: 8px 16px;
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .pizza-card button:hover {
+      background-color: #fffde7;
+    }
