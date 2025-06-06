@@ -28,6 +28,7 @@ Ele é chamado de seletor universal e serve para selecionar todos os elementos d
       background-color: white;
     }
 
+/* Componente 02 */
     .yellow-background {
       background-color: #f9a825;
       display: flex;
@@ -120,3 +121,52 @@ Ele é chamado de seletor universal e serve para selecionar todos os elementos d
     .pizza-card button:hover {
       background-color: #fffde7;
     }
+
+
+/* Componente 04 */
+.titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 1.4;
+    text-align: center;
+    max-width: 586px;
+    margin: 0 auto;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    padding-top: 50px;
+}
+
+.customer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.imagem img {
+    max-width: 90%;
+    width: 500px; /* ou ajuste para o que mais se aproxima do Figma */
+    height: auto;
+    display: block;
+}
