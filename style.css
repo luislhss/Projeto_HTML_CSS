@@ -219,3 +219,52 @@ Ele é chamado de seletor universal e serve para selecionar todos os elementos d
     height: auto;
     display: block;
 }
+
+/* Componente 01 */
+.component1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px;
+  width: 100%;
+}
+
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ffbb00;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #ffd740;
+}
+
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.especial-img {
+  max-width: 100%;
+  height: auto;
+  width: 300px; /* ajuste conforme o design */
+}
